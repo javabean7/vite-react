@@ -1,3 +1,4 @@
+import _ from 'lodash';
 let res;
 console.info('hello world');
 console.info(1111);
@@ -7,6 +8,7 @@ res.b = 1;
 let bbbb = Object.create(res);
 console.info(bbbb);
 console.info('res = ', res);
+res = _.get(res, 'a');
 res = JSON.stringify(res);
 
 export default res;
