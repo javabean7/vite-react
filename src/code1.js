@@ -9,6 +9,6 @@ let bbbb = Object.create(res);
 console.info(bbbb);
 console.info('res = ', res);
 res = _.get(res, 'a');
+res = 1;
 res = JSON.stringify(res);
-
 export default res;

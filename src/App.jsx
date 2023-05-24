@@ -6,8 +6,14 @@ import res from './code1';
 import './test.less';
 
 function App() {
+  return (
+    <>
+      <div className="test">{res}</div>
+    </>
+  );
+}
+function App1() {
   const [count, setCount] = useState(0);
-
   return (
     <>
       <div className="test">{res}</div>
